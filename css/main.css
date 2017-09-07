@@ -192,6 +192,13 @@ iframe{
     max-width: 100%;
 }
 
+.floated_img
+{
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
 ul, li{
     list-style: none outside none;
@@ -219,6 +226,7 @@ ul, li{
     display: table-cell;
 /*    height: inherit;*/
     vertical-align: middle;
+    background: transparent;
 }
 .align-center{
     text-align: center;   
@@ -1680,6 +1688,23 @@ strong,
         color: #fff;       
     }
 
+schedule {
+position: relative;
+width: 600px;
+}
+
+sat, sun {
+position: absolute;
+width: 400px;
+}
+
+sat {
+left: 0;
+}
+
+sun {
+left: 300px;
+}
 /* Form */
 
 /* 7. Video background */
