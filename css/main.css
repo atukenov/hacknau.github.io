@@ -1688,22 +1688,113 @@ strong,
         color: #fff;       
     }
 
-schedule {
-position: relative;
-width: 600px;
+
+/* 6.7 FAQ, Page */
+.page-faq{  
+/*    margin-top: -1rem;*/
 }
 
-sat, sun {
-position: absolute;
-width: 400px;
+.page-faq .fp-controlArrow {
+	display: none;
+}
+.page-faq .p-title{
+	position: relative;
+}
+.page-faq .p-title .buttons{
+	position: absolute;
+	bottom: 8px;
+	right: 0;
+	background: rgba(255,255,255,0.15);
+	display: inline-block;
 }
 
-sat {
-left: 0;
+.page-faq .p-title .buttons li{
+	position: relative;
+	display: block;
+	width: 48px;
+	float: left;
+}
+.page-faq .p-title .buttons a{
+	text-align: center;
+	width: 48px;
+	height: 48px;
+	display: inline-block;
+	position: relative;
+	margin: 0;
+}
+.page-faq .p-title .buttons a i{
+	margin: 0;
+	font-size: 24px;
+	padding-top: 0.5em;
 }
 
-sun {
-left: 300px;
+.page-faq .p-title .buttons a:after{
+	position: absolute;
+	content: "";
+	background: rgba(255,255,255,0);
+	border-radius: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+.page-faq .p-title .buttons a:hover:after{
+	border-radius: 0;
+	background: rgba(255,255,255,0.15);
+}
+.page-faq .contact li{
+	margin-top: 20px;
+}
+.page-faq .contact img{
+	height: 56px;
+	width: auto;
+}
+.page-faq a{
+    color: #fff;
+}
+.page-faq .right{
+	text-align: right;
+}
+	.page-faq .social-links .page-header .header-title{
+        display: none;
+    }
+    .page-faq .socialnet{
+		margin-right: -10px;
+	}
+    .page-faq .socialnet a{
+        color: #fff;
+		font-size: 24px;
+        margin-bottom:  0.25rem;
+        display: inline-block;
+		width: 1.5em;
+        border-radius: 1em;
+        background: transparent; 
+		position: relative;
+		text-align: center;
+    }
+    .page-faq .socialnet a:after{
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: transparent;
+        -ms-transition: 0.3s;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+		border-radius: 100%;
+	}
+    .page-faq .socialnet a:hover:after{
+        border-radius: 0;
+        background: rgba(255, 255, 255, 0.15); 
+        color: #fff;       
+    }
+
+.faq-text p {
+    font-size: 14px;
 }
 /* Form */
 
