@@ -65,7 +65,7 @@ $(document).on('ready',function() {
 		imageSlides.push({src: src});
 	}
 
-
+    
 	/* 3. Slideshow Background */
 	var isSlide = false;
 	var slideElem = $('.slide');
@@ -141,7 +141,6 @@ $(document).on('ready',function() {
     $('.p-footer a').on('click', function () {
         $.fn.fullpage.moveSectionDown();
     });
-
 });
 
 
