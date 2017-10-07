@@ -64,11 +64,9 @@ h2 a {
 
 .container {
 	  text-align: left;
-	  overflow-y:scroll;
-	  height: 300px;
-      width: 80%;
-	  margin: 0 25em;
-  display: inline-block;
+      width: 50%;
+	  margin: 0 20em;
+  display: inline-table;
   padding: 0 0 8em 0;
 }
 
