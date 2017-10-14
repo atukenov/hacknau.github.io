@@ -800,7 +800,7 @@ strong,
 		display: none;
 	}
 /* 6. Main Page */
-.page-main{  
+.page-main{ 
     position: relative;
 	margin-left: 0;
 	width: 100%;
@@ -1034,7 +1034,6 @@ strong,
 	text-align: left;
     font-family: 'Opensans';
 	color: #fff;
-	padding-left: 50%;
 }
 	.page .content > .contact,
 	.page .content > .page-block,
@@ -1102,7 +1101,6 @@ strong,
     font-family: 'OpenSans-Light';
 }
 .page h4{
-	text-transform: uppercase;
 	font-weight: bold;
     color: #ffffff;
     font-size: 20px;
@@ -1221,7 +1219,7 @@ strong,
 	border-left: 4px solid currentColor;
 	padding-left: 10px;
 	margin-left: 6px;
-	max-width: 180px;
+	max-width: 500px;
 }
 
 .page .content .subhead{
