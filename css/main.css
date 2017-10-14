@@ -221,6 +221,7 @@ ul, li{
     display: table;
     height: inherit;
     margin: auto;
+    
 }
 .table-cell{
     display: table-cell;
@@ -1188,8 +1189,10 @@ strong,
 	position: relative;
 	display: inline-block;
 	/* adjust below according t your llogo dimension */
-	height: 100px;
-	width: auto;
+	width: 350px;
+    float: right;
+    padding-right: 100px;
+    padding-top: 180px;
 }
 
 .page-home .content .header{
